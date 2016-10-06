@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>BasicPlayerSample</title>
+
+        <link rel="stylesheet" href="style/base.css" />
+		
+        <script src="script/lib/jquery.min.js"></script>
+
+        <script src="script/lib/VisitorAPI.js"></script>
+        <script src="script/lib/AppMeasurement.js"></script>
+
+        <script src="script/lib/VideoHeartbeat.min.js"></script>
+
+        <script src="script/app/notification.center.js"></script>
+        <script src="script/app/configuration.live.js"></script>
+        <script src="script/app/player/video.player.live.js"></script>
+        <script src="script/app/analytics/video.analytics.provider.js"></script>
+
+        <script src="script/main.js"></script>
+		
+		<script>
+		var currentdate = new Date(); 
+		var datetime = currentdate.getFullYear() + "-"
+                + (currentdate.getMonth()+1)  + "-" 
+                + currentdate.getDate() + " @ "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+		var date = currentdate.getFullYear() + "-"
+                + (currentdate.getMonth()+1)  + "-" 
+                + currentdate.getDate();	
+		</script>
+		
+    </head>
+
+    <body>
+	
+	<img src="adobe-analytics.png">
+	
+	<h2>SKO Certification: Video Metadata</h2>
+	<i>Refresh the page and edit the values below to update the sample video metadata before starting a new test. This will create a new unique playback session.</i><br/>
+    
+	<p>
+	<form>
+		<table>
+			<tr><td>Your Name:</td>					<td><input type="text" id="yourname" name="yourname" value="tester">			</td></tr>
+			<tr><td>Test Name:</td>					<td><input type="text" id="testname" name="testname" value="test">				</td></tr>
+			<tr><td>Test Date & Time:</td>			<td><input type="text" id="testdatetime" name="testdatetime" disabled>			</td></tr>
+			<tr><td>Stream Type:</td>				<td><input type="text" id="streamtype" name="streamtype" value="LIVE" disabled>	</td></tr>
+			<tr><td>Live Offset:</td>				<td><input type="text" id="liveoffset" name="liveoffset" value="0" disabled>	</td></tr>
+			<tr><td>- - -</td>						<td>																			</td></tr>
+			<tr><td>SKO PR ID:</td>					<td><input type="text" id="sko_prid" name="sko_prid" value="SKO Programme ID">	</td></tr>
+			<tr><td>SKO Type:</td>					<td><input type="text" id="sko_ty" name="sko_ty" value="tv.ep">					</td></tr>
+			<tr><td>SKO Broadcast Date:</td>		<td><input type="text" id="sko_dt" name="sko_dt">								</td></tr>
+			<tr><td>SKO Planned Broadcast Date:</td><td><input type="text" id="sko_t" name="sko_t" value="">						</td></tr>
+			<tr><td>SKO Station ID:</td>			<td><input type="text" id="sko_stid" name="sko_stid" value="1">					</td></tr>
+			<tr><td>SKO Programme:</td>				<td><input type="text" id="sko_pr" name="sko_pr" value="Programme Title">		</td></tr>
+			<tr><td>SKO Begin:</td>					<td><input type="text" id="sko_begin" name="sko_begin" value="2400">			</td></tr>
+			<tr><td>SKO End:</td>					<td><input type="text" id="sko_end" name="sko_end" value="2410">				</td></tr>
+			<tr><td>SKO Duration:</td>				<td><input type="text" id="sko_cl" name="sko_cl" value="600">					</td></tr>
+			<tr><td>SKO NL:</td>					<td><input type="text" id="sko_starts_nl" name="sko_starts_nl" value="0">		</td></tr>
+			<tr><td>SKO ONB:</td>					<td><input type="text" id="sko_starts_onb" name="sko_starts_onb" value="0">		</td></tr>
+			<tr><td>SKO BTL:</td>					<td><input type="text" id="sko_starts_btl" name="sko_starts_btl" value="1">		</td></tr>
+			<tr><td>SKO NL ZIET:</td>				<td><input type="text" id="sko_nlziet" name="sko_nlziet" value="0">				</td></tr>
+			<tr><td>SKO IDFA:</td>					<td><input type="text" id="sko_idfa" name="sko_idfa" value="idfa">				</td></tr>
+			<tr><td>SKO Genre:</td>					<td><input type="text" id="sko_gen" name="sko_gen" value="Sample">				</td></tr>
+			<tr><td>SKO Publiser:</td>				<td><input type="text" id="sko_pub" name="sko_pub" value="Publisher">			</td></tr>			
+		</table>
+	</form>
+	<script>
+		document.getElementById('testdatetime').value = datetime;
+		document.getElementById('sko_dt').value = date;
+		document.getElementById('sko_t').value = date;
+	</script>
+	</p>
+
+	<hr>
+
+	<h2>Adobe VideoHeartbeat HTML5 Basic Sample Player</h2>
+
+    <div align=center class="container">
+        <video id="movie" width="600" preload controls>
+            <source src="http://cdn3.viblast.com/streams/hls/airshow/playlist.m3u8">
+        </video>
+
+        <div class="overlay" id="pub-label" hidden>P</div>
+    </div>
+		
+	<hr>
+	
+	<p>
+        More information about media events in html5 players can be found at <a href="http://www.w3.org/2010/05/video/mediaevents.html">the w3c</a>
+    </p>
+
+    </body>
+</html>
