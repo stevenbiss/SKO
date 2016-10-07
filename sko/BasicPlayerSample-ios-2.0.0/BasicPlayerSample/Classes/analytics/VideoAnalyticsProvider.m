@@ -106,10 +106,8 @@ double const VIDEO_LENGTH = 600;
     [videoMetadata setObject:@"Sample TV station" forKey:@"tvStation"];
     [videoMetadata setObject:@"iOS SDK" forKey:@"sko_source"];
     [videoMetadata setObject:@"SKO.VHLSample.iOS" forKey:@"pageName"];
-    
-
-
-    
+    [videoMetadata setObject:@"VOD" forKey:@"streamType"];
+        
 	[_mediaHeartbeat trackSessionStart:mediaObject data:videoMetadata];
 }
 
