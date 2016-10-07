@@ -1,0 +1,7 @@
+#Fri Oct 07 12:37:51 BST 2016
+base.0=C\:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0b3d7ce800cda6aede072f3122bf34627c063e96
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_90b6561619ccab36070c25f83cc9d1b271b48b38\\classes.dex
+base.1=C\:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_90b6561619ccab36070c25f83cc9d1b271b48b38
+file.0=C\:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0b3d7ce800cda6aede072f3122bf34627c063e96\\classes.dex

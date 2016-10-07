@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\biss\StudioProjects\BasicPlayerSample-android-2.0.0\app\libs\VideoHeartbeat.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="636d4a0e946671810167fbfa3a03052b513a72cc">
+        <dex dex="C:\Users\biss\StudioProjects\BasicPlayerSample-android-2.0.0\app\build\intermediates\transforms\dex\debug\folders\1000\2\VideoHeartbeat_18dc97a1de93b08250ffec58a9dd8d0dacc2ba56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\biss\StudioProjects\BasicPlayerSample-android-2.0.0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="18a1a95528966984d69a81355069bb7ff45f82f8">
+        <dex dex="C:\Users\biss\StudioProjects\BasicPlayerSample-android-2.0.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_90b6561619ccab36070c25f83cc9d1b271b48b38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\biss\StudioProjects\BasicPlayerSample-android-2.0.0\app\libs\adobeMobileLibrary.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="636afe8251c4d3ae1431df040e20d6f3930b7ccd">
+        <dex dex="C:\Users\biss\StudioProjects\BasicPlayerSample-android-2.0.0\app\build\intermediates\transforms\dex\debug\folders\1000\2\adobeMobileLibrary_7dd99a21590c4186ca465a1fabfb1d706cc4f5e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\biss\StudioProjects\BasicPlayerSample-android-2.0.0\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1e9adbea010afa5b5f609ddccda1100f05802f63">
+        <dex dex="C:\Users\biss\StudioProjects\BasicPlayerSample-android-2.0.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0b3d7ce800cda6aede072f3122bf34627c063e96\classes.dex" />
+    </item>
+
+</items>

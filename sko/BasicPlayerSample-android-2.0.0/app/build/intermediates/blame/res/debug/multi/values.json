@@ -1,0 +1,130 @@
+[
+    {
+        "outputFile": "C:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 113,
+                        "endColumn": 45,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 57,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 287
+                },
+                "from": {
+                    "file": "C:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 54,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 182
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\biss\\Dropbox\\apache-tomcat-7.0.39\\webapps\\adobe\\sko\\BasicPlayerSample-android-2.0.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\biss\\Dropbox\\apache-tomcat-7.0.39\\webapps\\adobe\\sko\\BasicPlayerSample-android-2.0.0\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 113,
+                        "endColumn": 45,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 57,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\biss\\Dropbox\\apache-tomcat-7.0.39\\webapps\\adobe\\sko\\BasicPlayerSample-android-2.0.0\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 287
+                },
+                "from": {
+                    "file": "C:\\Users\\biss\\Dropbox\\apache-tomcat-7.0.39\\webapps\\adobe\\sko\\BasicPlayerSample-android-2.0.0\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 54,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 182
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\biss\\Dropbox\\apache-tomcat-7.0.39\\webapps\\adobe\\sko\\BasicPlayerSample-android-2.0.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\biss\\Dropbox\\apache-tomcat-7.0.39\\webapps\\adobe\\sko\\BasicPlayerSample-android-2.0.0\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\biss\\StudioProjects\\BasicPlayerSample-android-2.0.0\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]
